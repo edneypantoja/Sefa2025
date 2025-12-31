@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background: #d6d6d6;
+    background: #dedede;
     color: #444;
+    margin: 0;
 }
 
 main {
@@ -79,4 +80,18 @@ img {
 
 .completo img {
     display: block;
+}
+
+@media (max-width: 768px) {
+    .disciplina>h2 {
+        font-size: 20px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    body {
+        padding: 10px;
+    }
 }
