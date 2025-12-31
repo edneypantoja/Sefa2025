@@ -1,0 +1,16 @@
+{
+  "name": "Conteúdo SEFA 2025",
+  "short_name": "SEFA 2025",
+  "description": "Roteiro de Estudos",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/static/icone.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

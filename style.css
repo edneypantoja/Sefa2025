@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #d6d6d6;
+    color: #444;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.topico * {
+    background-color: white;
+    padding: 20px;
+    color: #444;
+    margin-bottom: 5px;
+
+    border-left: 4px solid #444444;
+}
+
+.disciplina {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.disciplina>h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: slateblue;
+}
+
+.topico {
+    margin-bottom: 15px;
+}
+
+.topico h3 {
+    display: flex;
+    border-color: slateblue;
+}
+
+.filho {
+    display: flex;
+    margin-left: 40px;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+}
+
+.completo {
+    color: #959595;
+    font-weight: bold;
+}
+
+.completo {
+    border-color: #5b8c67 !important;
+}
+
+h3 {
+    margin: 0;
+}
+
+img {
+    width: 14px !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: 10px !important;
+    display: none;
+}
+
+.completo img {
+    display: block;
+}

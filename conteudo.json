@@ -1,0 +1,308 @@
+{
+  "Geral": [
+    {
+      "disciplina": "Português",
+      "qtd_questoes": 15,
+      "conteudo": {
+        "Ortografia oficial": [
+          "Acentuação gráfica",
+          "Flexão nominal e verbal",
+          "Pontuação"
+        ],
+        "Pronomes": [
+          "Emprego",
+          "Formas de tratamento",
+          "Colocação pronominal"
+        ],
+        "Verbo": [
+          "Tempos e modos verbais",
+          "Vozes do verbo",
+          "Concordância nominal e verbal"
+        ],
+        "Regência": [
+          "Regência nominal",
+          "Regência verbal",
+          "Crase"
+        ],
+        "Redação": [
+          "Frases corretas e incorretas",
+          "Interpretação de texto"
+        ]
+      }
+    },
+    {
+      "disciplina": "Matemática e Raciocínio Lógico",
+      "qtd_questoes": 5,
+      "conteudo": {
+        "Matemática Básica": [
+          "Conjuntos numéricos",
+          "Sistema legal de medidas",
+          "Razões e proporções",
+          "Regra de três",
+          "Porcentagens"
+        ],
+        "Álgebra": [
+          "Equações e inequações do 1º e 2º graus",
+          "Sistemas lineares",
+          "Funções e gráficos"
+        ],
+        "Progressões e Contagem": [
+          "PA e PG",
+          "Princípios de contagem",
+          "Probabilidade"
+        ],
+        "Lógica": [
+          "Estruturas lógicas",
+          "Lógica de argumentação",
+          "Lógica proposicional",
+          "Lógica de primeira ordem",
+          "Diagramas lógicos"
+        ]
+      }
+    },
+    {
+      "disciplina": "Administração Pública e Ética",
+      "qtd_questoes": 5,
+      "conteudo": {
+        "Administração Pública": [
+          "Evolução da administração pública no Brasil",
+          "Reformas administrativas",
+          "Modelos de gestão pública",
+          "Eficiência, eficácia e efetividade",
+          "Governança, governabilidade e accountability",
+          "Controle, desempenho e transparência",
+          "Gestão por resultados",
+          "Políticas públicas",
+          "Indicadores e mensuração de desempenho"
+        ],
+        "Ética": [
+          "Código de Ética Profissional SEFA (Decreto nº 4.104/2000)"
+        ]
+      }
+    },
+    {
+      "disciplina": "Direito Administrativo",
+      "qtd_questoes": 5,
+      "conteudo": {
+        "Administração Pública": [
+          "Conceito, natureza e fins",
+          "Princípios da Administração Pública",
+          "Poderes e deveres do administrador"
+        ],
+        "Poderes Administrativos": [
+          "Vinculado e discricionário",
+          "Hierárquico",
+          "Disciplinar",
+          "Regulamentar",
+          "Poder de polícia"
+        ],
+        "Atos Administrativos": [
+          "Conceito e requisitos",
+          "Classificação e espécies",
+          "Validade, revogação e anulação"
+        ],
+        "Serviços Públicos": [
+          "Conceito e classificação",
+          "Formas de prestação",
+          "Direitos do usuário"
+        ],
+        "Responsabilidade e Legislação": [
+          "Responsabilidade civil do Estado",
+          "Lei 5.810/1994",
+          "Lei 13.869/2019",
+          "Lei 8.429/1992",
+          "Lei 8.137/1990"
+        ]
+      }
+    },
+    {
+      "disciplina": "Noções de TI",
+      "qtd_questoes": 5,
+      "conteudo": {
+        "Informática Básica": [
+          "Windows",
+          "Microsoft Office"
+        ],
+        "Internet e Redes": [
+          "Redes de computadores",
+          "Navegadores",
+          "Correio eletrônico",
+          "Sítios de busca",
+          "Redes sociais"
+        ],
+        "Segurança da Informação": [
+          "Vírus e pragas virtuais",
+          "Antivírus e firewall",
+          "Backup",
+          "Segurança da informação"
+        ],
+        "Legislação e Serviços Digitais": [
+          "LGPD",
+          "Lei de Acesso à Informação",
+          "Serviços públicos digitais",
+          "Computação em nuvem"
+        ]
+      }
+    },
+    {
+      "disciplina": "Direito Constitucional",
+      "qtd_questoes": 5,
+      "conteudo": {
+        "Direitos e Garantias Fundamentais": [
+          "Direitos individuais e coletivos",
+          "Direitos sociais",
+          "Direitos políticos"
+        ],
+        "Remédios Constitucionais": [
+          "Habeas corpus",
+          "Mandado de segurança",
+          "Mandado de injunção",
+          "Habeas data",
+          "Ação popular",
+          "Ação civil pública"
+        ],
+        "Organização do Estado": [
+          "Organização político-administrativa",
+          "Competências constitucionais",
+          "Repartição de receitas",
+          "Intervenção"
+        ],
+        "Poderes e Funções": [
+          "Legislativo",
+          "Executivo",
+          "Judiciário",
+          "Ministério Público",
+          "Funções essenciais à justiça"
+        ]
+      }
+    },
+    {
+      "disciplina": "Direito Tributário Geral",
+      "qtd_questoes": 5,
+      "conteudo": {
+        "Sistema Tributário": [
+          "Sistema Tributário Nacional",
+          "Princípios tributários",
+          "Limitações ao poder de tributar"
+        ],
+        "Tributos": [
+          "Espécies tributárias",
+          "Fato gerador",
+          "Incidência, isenção e imunidade"
+        ],
+        "Obrigação Tributária": [
+          "Obrigação principal e acessória",
+          "Sujeito ativo e passivo",
+          "Base de cálculo e alíquota"
+        ],
+        "Crédito Tributário": [
+          "Lançamento",
+          "Modalidades",
+          "Efeitos"
+        ]
+      }
+    },
+    {
+      "disciplina": "Contabilidade Geral",
+      "qtd_questoes": 5,
+      "conteudo": {
+        "Fundamentos": [
+          "Conceito e objetivos",
+          "Usuários da contabilidade",
+          "CPC 00"
+        ],
+        "Patrimônio e Resultados": [
+          "Ativo, Passivo e PL",
+          "Fatos contábeis",
+          "Regime de caixa e competência"
+        ],
+        "Demonstrações Contábeis": [
+          "Balanço Patrimonial",
+          "DRE",
+          "DFC",
+          "DMPL",
+          "DVA"
+        ],
+        "Avaliação e Escrituração": [
+          "Depreciação e amortização",
+          "Estoques",
+          "SPED Contábil",
+          "Livros contábeis"
+        ]
+      }
+    }
+  ],
+  "Especifico": [
+    {
+      "disciplina": "Direito Tributário II",
+      "qtd_questoes": 20,
+      "conteudo": {
+        "Tributação Avançada": [
+          "Responsabilidade tributária",
+          "Crédito tributário",
+          "Suspensão, extinção e exclusão",
+          "Garantias e privilégios"
+        ],
+        "Administração Tributária": [
+          "Fiscalização",
+          "Dívida ativa",
+          "Certidões"
+        ],
+        "Legislação Especial": [
+          "LC 123/2006 – Simples Nacional",
+          "LC 214/2025 – IBS e CBS"
+        ]
+      }
+    },
+    {
+      "disciplina": "Legislação Tributária do Estado do Pará",
+      "qtd_questoes": 15,
+      "conteudo": {
+        "ICMS": [
+          "LC 24/75",
+          "LC 87/96",
+          "Lei Estadual 5.530/89",
+          "Processo Administrativo Tributário"
+        ],
+        "Outros Tributos": [
+          "IPVA",
+          "ITCMD",
+          "Taxas estaduais"
+        ],
+        "Parcelamento": [
+          "Decreto 2.057/18"
+        ]
+      }
+    },
+    {
+      "disciplina": "Fluência em Dados",
+      "qtd_questoes": 15,
+      "conteudo": {
+        "Gestão de Projetos": [
+          "Metodologias Ágeis",
+          "Scrum",
+          "Kanban",
+          "XP",
+          "Lean"
+        ],
+        "Dados e BI": [
+          "Pipeline de dados",
+          "ETL",
+          "Business Intelligence",
+          "Power BI",
+          "KPIs"
+        ],
+        "Análise de Dados": [
+          "SQL",
+          "Excel",
+          "Tratamento de dados"
+        ],
+        "Inteligência Artificial": [
+          "IA e Machine Learning",
+          "Modelos supervisionados",
+          "Modelos não supervisionados"
+        ]
+      }
+    }
+  ]
+}
