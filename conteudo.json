@@ -4,28 +4,34 @@
       "disciplina": "Português",
       "qtd_questoes": 15,
       "conteudo": {
-        "Ortografia oficial": [
-          "Acentuação gráfica",
-          "Flexão nominal e verbal",
-          "Pontuação"
+        "Ortografia e Acentuação": [
+          "Ortografia oficial",
+          "Acentuação gráfica"
         ],
-        "Pronomes": [
-          "Emprego",
-          "Formas de tratamento",
-          "Colocação pronominal"
+        "Morfologia": [
+          "Flexão nominal",
+          "Flexão verbal",
+          "Pronomes: emprego",
+          "Formas de tratamento"
         ],
-        "Verbo": [
+        "Sintaxe do Verbo": [
           "Tempos e modos verbais",
           "Vozes do verbo",
-          "Concordância nominal e verbal"
+          "Colocação pronominal"
         ],
-        "Regência": [
+        "Concordância e Regência": [
+          "Concordância nominal",
+          "Concordância verbal",
           "Regência nominal",
           "Regência verbal",
           "Crase"
         ],
-        "Redação": [
-          "Frases corretas e incorretas",
+        "Pontuação e Correção Gramatical": [
+          "Pontuação",
+          "Reconhecimento de frases corretas e incorretas"
+        ],
+        "Compreensão Textual": [
+          "Intelecção de texto",
           "Interpretação de texto"
         ]
       }
@@ -35,28 +41,36 @@
       "qtd_questoes": 5,
       "conteudo": {
         "Matemática Básica": [
-          "Conjuntos numéricos",
+          "Conjuntos numéricos: inteiros, racionais e reais",
+          "Operações com conjuntos",
           "Sistema legal de medidas",
           "Razões e proporções",
-          "Regra de três",
+          "Divisão proporcional",
+          "Regra de três simples e composta",
           "Porcentagens"
         ],
-        "Álgebra": [
+        "Álgebra e Funções": [
           "Equações e inequações do 1º e 2º graus",
           "Sistemas lineares",
-          "Funções e gráficos"
+          "Funções",
+          "Gráficos de funções"
         ],
-        "Progressões e Contagem": [
-          "PA e PG",
+        "Progressões, Contagem e Probabilidade": [
+          "Progressões aritméticas (PA)",
+          "Progressões geométricas (PG)",
           "Princípios de contagem",
           "Probabilidade"
         ],
-        "Lógica": [
+        "Raciocínio Lógico e Lógica Matemática": [
           "Estruturas lógicas",
-          "Lógica de argumentação",
-          "Lógica proposicional",
-          "Lógica de primeira ordem",
-          "Diagramas lógicos"
+          "Raciocínio lógico aplicado a problemas aritméticos, geométricos e matriciais",
+          "Lógica de argumentação: analogias, inferências, deduções e conclusões",
+          "Lógica proposicional: proposições simples e compostas",
+          "Tabelas-verdade",
+          "Equivalências lógicas",
+          "Leis de De Morgan",
+          "Diagramas lógicos",
+          "Lógica de primeira ordem"
         ]
       }
     },
@@ -64,19 +78,39 @@
       "disciplina": "Administração Pública e Ética",
       "qtd_questoes": 5,
       "conteudo": {
-        "Administração Pública": [
-          "Evolução da administração pública no Brasil",
+        "Evolução e Modelos da Administração Pública": [
+          "Evolução da administração pública no Brasil (pós-1930)",
           "Reformas administrativas",
-          "Modelos de gestão pública",
-          "Eficiência, eficácia e efetividade",
-          "Governança, governabilidade e accountability",
-          "Controle, desempenho e transparência",
-          "Gestão por resultados",
-          "Políticas públicas",
-          "Indicadores e mensuração de desempenho"
+          "Modelos de gestão pública: patrimonialista, burocrático e gerencial"
         ],
-        "Ética": [
-          "Código de Ética Profissional SEFA (Decreto nº 4.104/2000)"
+        "Gestão Pública e Desempenho": [
+          "Eficiência, eficácia e efetividade na Administração Pública",
+          "Avaliação e mensuração do desempenho governamental",
+          "Controle e desempenho",
+          "Indicadores e métricas de produtividade"
+        ],
+        "Governança e Relação Estado-Sociedade": [
+          "Parcerias entre governo e sociedade",
+          "Ouvidorias",
+          "Governança interna e externa",
+          "Governabilidade",
+          "Accountability",
+          "Transparência"
+        ],
+        "Organização e Modernização Administrativa": [
+          "Desconcentração administrativa",
+          "Descentralização administrativa",
+          "Gestão pública empreendedora",
+          "Modernização da gestão contemporânea",
+          "Modelo de gestão pública por resultados",
+          "Tendências de modernização e novos modelos de gestão pública"
+        ],
+        "Políticas Públicas": [
+          "Políticas públicas",
+          "Monitoramento de resultados"
+        ],
+        "Ética na Administração Pública": [
+          "Código de Ética Profissional da SEFA (Decreto nº 4.104, de 14 de junho de 2000)"
         ]
       }
     },
@@ -85,33 +119,52 @@
       "qtd_questoes": 5,
       "conteudo": {
         "Administração Pública": [
-          "Conceito, natureza e fins",
-          "Princípios da Administração Pública",
-          "Poderes e deveres do administrador"
+          "Administração Pública: conceito",
+          "Natureza da administração pública",
+          "Fins da administração pública",
+          "Estrutura legal dos órgãos públicos",
+          "Princípios da Administração Pública: legalidade, moralidade, impessoalidade, finalidade, publicidade e eficiência",
+          "Poderes e deveres do administrador público"
         ],
         "Poderes Administrativos": [
-          "Vinculado e discricionário",
-          "Hierárquico",
-          "Disciplinar",
-          "Regulamentar",
+          "Poder vinculado",
+          "Poder discricionário",
+          "Poder hierárquico",
+          "Poder disciplinar",
+          "Poder regulamentar",
           "Poder de polícia"
         ],
         "Atos Administrativos": [
-          "Conceito e requisitos",
-          "Classificação e espécies",
-          "Validade, revogação e anulação"
+          "Atos administrativos: conceito",
+          "Requisitos dos atos administrativos",
+          "Classificação dos atos administrativos",
+          "Espécies de atos administrativos",
+          "Validade dos atos administrativos",
+          "Formalidade",
+          "Motivação",
+          "Revogação",
+          "Anulação",
+          "Modificação",
+          "Extinção"
         ],
         "Serviços Públicos": [
-          "Conceito e classificação",
-          "Formas de prestação",
-          "Direitos do usuário"
+          "Serviços públicos: conceito",
+          "Classificação dos serviços públicos",
+          "Regulamentação e controle",
+          "Requisitos do serviço público",
+          "Direitos do usuário",
+          "Competência para prestação do serviço",
+          "Formas e meios de prestação do serviço"
         ],
-        "Responsabilidade e Legislação": [
+        "Servidores Públicos": [
+          "Normas constitucionais sobre o regime jurídico dos servidores estatais",
+          "Regime Jurídico Único dos Servidores Públicos Civis do Estado do Pará (Lei nº 5.810/1994 e alterações)"
+        ],
+        "Responsabilidade e Ilícitos Administrativos": [
           "Responsabilidade civil do Estado",
-          "Lei 5.810/1994",
-          "Lei 13.869/2019",
-          "Lei 8.429/1992",
-          "Lei 8.137/1990"
+          "Abuso de autoridade (Lei nº 13.869/2019)",
+          "Enriquecimento ilícito (Lei nº 8.429/1992)",
+          "Crimes contra a ordem tributária (Lei nº 8.137/1990)"
         ]
       }
     },
@@ -119,28 +172,40 @@
       "disciplina": "Noções de TI",
       "qtd_questoes": 5,
       "conteudo": {
-        "Informática Básica": [
-          "Windows",
-          "Microsoft Office"
+        "Sistema Operacional e Aplicativos": [
+          "Noções de sistema operacional (ambiente Windows)",
+          "Edição de textos, planilhas e apresentações (Microsoft Office)"
         ],
-        "Internet e Redes": [
-          "Redes de computadores",
-          "Navegadores",
-          "Correio eletrônico",
-          "Sítios de busca",
+        "Internet, Redes e Comunicação": [
+          "Redes de computadores: conceitos básicos",
+          "Ferramentas, aplicativos e procedimentos de Internet e intranet",
+          "Programas de navegação (Mozilla Firefox e Google Chrome)",
+          "Programa de correio eletrônico (Outlook Express)",
+          "Sítios de busca e pesquisa na Internet",
+          "Grupos de discussão",
           "Redes sociais"
         ],
-        "Segurança da Informação": [
-          "Vírus e pragas virtuais",
-          "Antivírus e firewall",
-          "Backup",
-          "Segurança da informação"
+        "Organização da Informação": [
+          "Organização e gerenciamento de informações",
+          "Arquivos",
+          "Pastas",
+          "Programas"
         ],
-        "Legislação e Serviços Digitais": [
-          "LGPD",
-          "Lei de Acesso à Informação",
-          "Serviços públicos digitais",
-          "Computação em nuvem"
+        "Computação em Nuvem": [
+          "Computação na nuvem (cloud computing)",
+          "Armazenamento de dados na nuvem (cloud storage)"
+        ],
+        "Segurança da Informação": [
+          "Segurança da informação",
+          "Procedimentos de segurança",
+          "Vírus, worms e pragas virtuais",
+          "Aplicativos de segurança (antivírus, firewall, anti-spyware)",
+          "Procedimentos de backup"
+        ],
+        "Legislação e Governo Digital": [
+          "Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD)",
+          "Lei nº 12.527/2011 (Lei de Acesso à Informação)",
+          "Serviços públicos digitais"
         ]
       }
     },
@@ -148,14 +213,20 @@
       "disciplina": "Direito Constitucional",
       "qtd_questoes": 5,
       "conteudo": {
+        "Fundamentos Constitucionais": [
+          "Constituição da República Federativa do Brasil",
+          "Fundamentos do Estado",
+          "Princípios fundamentais"
+        ],
         "Direitos e Garantias Fundamentais": [
-          "Direitos individuais e coletivos",
+          "Direitos e deveres individuais e coletivos",
           "Direitos sociais",
           "Direitos políticos"
         ],
         "Remédios Constitucionais": [
           "Habeas corpus",
           "Mandado de segurança",
+          "Direito de petição",
           "Mandado de injunção",
           "Habeas data",
           "Ação popular",
@@ -163,16 +234,38 @@
         ],
         "Organização do Estado": [
           "Organização político-administrativa",
-          "Competências constitucionais",
-          "Repartição de receitas",
-          "Intervenção"
+          "Competências constitucionais da União, Estados, Distrito Federal e Municípios",
+          "Repartição de receitas tributárias",
+          "Intervenção nos Estados e Municípios"
         ],
-        "Poderes e Funções": [
-          "Legislativo",
-          "Executivo",
-          "Judiciário",
+        "Poderes da República": [
+          "Separação de poderes",
+          "Poder Legislativo",
+          "Poder Executivo",
+          "Poder Judiciário",
+          "Sistemas de governo",
+          "Processo legislativo"
+        ],
+        "Funções Essenciais à Justiça": [
           "Ministério Público",
           "Funções essenciais à justiça"
+        ],
+        "Administração Pública e Servidores": [
+          "Administração pública",
+          "Disposições gerais da administração pública",
+          "Servidores públicos civis"
+        ],
+        "Ordem Econômica e Financeira": [
+          "Princípios gerais da atividade econômica e financeira",
+          "Sistema Tributário Nacional",
+          "Orçamento e finanças públicas"
+        ],
+        "Defesa do Estado e da Democracia": [
+          "Defesa do Estado",
+          "Instituições democráticas"
+        ],
+        "Constituição Estadual": [
+          "Constituição do Estado do Pará"
         ]
       }
     },
@@ -180,25 +273,46 @@
       "disciplina": "Direito Tributário Geral",
       "qtd_questoes": 5,
       "conteudo": {
-        "Sistema Tributário": [
+        "Sistema Tributário Nacional e Princípios": [
           "Sistema Tributário Nacional",
-          "Princípios tributários",
+          "Princípios gerais do Direito Tributário",
           "Limitações ao poder de tributar"
         ],
-        "Tributos": [
-          "Espécies tributárias",
-          "Fato gerador",
-          "Incidência, isenção e imunidade"
+        "Código Tributário Nacional": [
+          "Código Tributário Nacional (Lei nº 5.172/1966 e alterações)"
+        ],
+        "Tributo e Espécies Tributárias": [
+          "Tributo: conceito e definição",
+          "Impostos",
+          "Taxas",
+          "Contribuição de melhoria",
+          "Empréstimos compulsórios",
+          "Contribuições especiais"
         ],
         "Obrigação Tributária": [
-          "Obrigação principal e acessória",
-          "Sujeito ativo e passivo",
-          "Base de cálculo e alíquota"
+          "Obrigação tributária principal",
+          "Obrigação tributária acessória",
+          "Fato gerador",
+          "Incidência e não incidência",
+          "Isenção",
+          "Imunidade"
+        ],
+        "Sujeição e Competência Tributária": [
+          "Competência tributária",
+          "Sujeito ativo",
+          "Capacidade tributária",
+          "Sujeito passivo: contribuinte e responsável",
+          "Domicílio tributário"
+        ],
+        "Quantificação do Tributo": [
+          "Base de cálculo",
+          "Alíquota"
         ],
         "Crédito Tributário": [
+          "Crédito tributário",
           "Lançamento",
-          "Modalidades",
-          "Efeitos"
+          "Efeitos do lançamento",
+          "Modalidades de lançamento"
         ]
       }
     },
@@ -206,28 +320,78 @@
       "disciplina": "Contabilidade Geral",
       "qtd_questoes": 5,
       "conteudo": {
-        "Fundamentos": [
-          "Conceito e objetivos",
-          "Usuários da contabilidade",
-          "CPC 00"
+        "Fundamentos da Contabilidade": [
+          "Conceito, objeto, objetivos e campo de atuação da contabilidade",
+          "Usuários da informação contábil",
+          "Estrutura Conceitual da Contabilidade (CPC 00)"
         ],
-        "Patrimônio e Resultados": [
-          "Ativo, Passivo e PL",
+        "Resultados e Regimes Contábeis": [
+          "Apuração dos resultados",
+          "Regime de caixa",
+          "Regime de competência"
+        ],
+        "Patrimônio e Variações Patrimoniais": [
+          "Componentes patrimoniais (Ativo, Passivo e Patrimônio Líquido)",
           "Fatos contábeis",
-          "Regime de caixa e competência"
+          "Variações patrimoniais"
+        ],
+        "Pronunciamentos Técnicos do CPC": [
+          "Pronunciamentos Técnicos do Comitê de Pronunciamentos Contábeis (CPC)"
         ],
         "Demonstrações Contábeis": [
           "Balanço Patrimonial",
-          "DRE",
-          "DFC",
-          "DMPL",
-          "DVA"
+          "Demonstração do Resultado do Exercício (DRE)",
+          "Demonstração das Mutações do Patrimônio Líquido (DMPL)",
+          "Demonstração do Resultado Abrangente (DRA)",
+          "Demonstração dos Fluxos de Caixa (DFC)",
+          "Demonstração do Valor Adicionado (DVA)",
+          "Obrigatoriedade e apresentação das demonstrações contábeis",
+          "Conteúdo de grupos e subgrupos",
+          "Classificação das contas",
+          "Critérios de avaliação e levantamento",
+          "Lei nº 6.404/76 (Lei das S.A.)",
+          "Alterações das Leis nº 11.638/07 e nº 11.941/09",
+          "Pronunciamentos técnicos do CPC aplicáveis"
         ],
-        "Avaliação e Escrituração": [
-          "Depreciação e amortização",
+        "Ativos, Avaliação e Consolidação": [
+          "Demonstrações consolidadas",
+          "Investimentos em controladas e coligadas",
+          "Redução ao valor recuperável (impairment)",
+          "Ativo imobilizado",
+          "Ativo intangível",
+          "Avaliação e contabilização de itens patrimoniais"
+        ],
+        "Notas e Ajustes Contábeis": [
+          "Notas explicativas",
+          "Provisões",
+          "Depreciações",
+          "Amortizações",
+          "Exaustão",
+          "Cálculos, contabilização e efeitos no resultado do exercício",
+          "Apresentação no balanço"
+        ],
+        "Estoques e Custos": [
           "Estoques",
-          "SPED Contábil",
-          "Livros contábeis"
+          "Tipos de inventários",
+          "Critérios e métodos de avaliação",
+          "Apuração do custo das mercadorias vendidas (CMV)"
+        ],
+        "Tributos e Obrigações Acessórias": [
+          "Tratamento contábil dos tributos incidentes em compras e vendas",
+          "SPED Contábil"
+        ],
+        "Aspectos Societários e Legais": [
+          "Sociedades empresariais e não empresariais",
+          "Código Civil (Lei nº 10.406/2002), artigos 1179 a 1195",
+          "Aspectos contábeis do Código de Processo Civil (Lei nº 5.869/1973)",
+          "Indivisibilidade da escrituração contábil"
+        ],
+        "Livros Contábeis": [
+          "Aspectos intrínsecos e extrínsecos dos livros contábeis",
+          "Livro Diário",
+          "Diário auxiliar",
+          "Razão sintético",
+          "Razão analítico"
         ]
       }
     }
@@ -237,20 +401,65 @@
       "disciplina": "Direito Tributário II",
       "qtd_questoes": 20,
       "conteudo": {
-        "Tributação Avançada": [
-          "Responsabilidade tributária",
-          "Crédito tributário",
-          "Suspensão, extinção e exclusão",
-          "Garantias e privilégios"
+        "Sistema Tributário Nacional": [
+          "Princípios gerais",
+          "Limitações ao poder de tributar",
+          "Impostos da União",
+          "Impostos dos Estados e do Distrito Federal",
+          "Impostos dos Municípios",
+          "Repartição de receitas tributárias"
+        ],
+        "Código Tributário Nacional (Lei nº 5.172/1966)": [
+          "Disposições gerais do CTN",
+          "Tributo: definição e espécies (impostos, taxas, contribuição de melhoria, empréstimos compulsórios, contribuições especiais)",
+          "Obrigação tributária (principal e acessória)",
+          "Fato gerador",
+          "Incidência e não incidência",
+          "Isenção",
+          "Imunidade",
+          "Domicílio tributário",
+          "Competência tributária",
+          "Sujeito ativo",
+          "Capacidade tributária",
+          "Sujeito passivo (contribuinte e responsável)",
+          "Responsabilidade tributária (solidária, de terceiros e por infrações)",
+          "Base de cálculo",
+          "Alíquota",
+          "Crédito tributário: lançamento (efeitos e modalidades)",
+          "Suspensão, extinção e exclusão do crédito tributário",
+          "Garantias e privilégios do crédito tributário"
         ],
         "Administração Tributária": [
           "Fiscalização",
+          "Regulamentação",
+          "Competência",
+          "Limites e procedimentos",
           "Dívida ativa",
-          "Certidões"
+          "Protesto de Certidões de Dívida Ativa",
+          "Certidões Negativas"
         ],
-        "Legislação Especial": [
-          "LC 123/2006 – Simples Nacional",
-          "LC 214/2025 – IBS e CBS"
+        "Legislação Tributária": [
+          "Disposições gerais",
+          "Leis, tratados, convenções internacionais e decretos",
+          "Métodos de interpretação",
+          "Vigência, aplicação, interpretação e integração da legislação tributária"
+        ],
+        "Simples Nacional (Lei Complementar nº 123/2006)": [
+          "Disposições preliminares",
+          "Definição de Microempresa e Empresa de Pequeno Porte",
+          "Inscrição e baixa",
+          "Tributos e contribuições",
+          "Instituição e abrangência",
+          "Vedações ao ingresso no Simples Nacional",
+          "Recolhimento dos tributos devidos",
+          "Créditos",
+          "Obrigações fiscais acessórias",
+          "Exclusão do Simples Nacional",
+          "Processo Administrativo Fiscal"
+        ],
+        "Reforma Tributária – IBS e CBS (Lei Complementar nº 214/2025)": [
+          "IBS e CBS",
+          "Normas gerais do IBS e da CBS"
         ]
       }
     },
@@ -259,18 +468,29 @@
       "qtd_questoes": 15,
       "conteudo": {
         "ICMS": [
-          "LC 24/75",
-          "LC 87/96",
-          "Lei Estadual 5.530/89",
-          "Processo Administrativo Tributário"
+          "Leis Complementares Federais nº 24/75 e nº 87/96",
+          "Lei Complementar Estadual nº 58/06",
+          "Lei Estadual nº 5.530/89 e alterações",
+          "Processo Administrativo Tributário (Lei nº 6.182/98)",
+          "Infrações, penalidades e denúncia espontânea",
+          "Procedimento Administrativo-Tributário",
+          "Formalização do crédito tributário",
+          "Intimações, notificações e Domicílio Eletrônico do Contribuinte (DEC)",
+          "Procedimentos especiais (consulta e restituição do indébito)"
         ],
-        "Outros Tributos": [
-          "IPVA",
-          "ITCMD",
-          "Taxas estaduais"
+        "IPVA": [
+          "Lei nº 6.017/96 e alterações"
+        ],
+        "ITCMD": [
+          "Lei Estadual nº 5.529/89 e alterações"
+        ],
+        "Taxas Estaduais": [
+          "Lei Estadual nº 10.311/2023 e alterações",
+          "Lei Estadual nº 7.591/11 e alterações",
+          "Lei Estadual nº 8.455/16 e alterações"
         ],
         "Parcelamento": [
-          "Decreto 2.057/18"
+          "Decreto nº 2.057/18 e alterações"
         ]
       }
     },
@@ -278,29 +498,48 @@
       "disciplina": "Fluência em Dados",
       "qtd_questoes": 15,
       "conteudo": {
-        "Gestão de Projetos": [
-          "Metodologias Ágeis",
-          "Scrum",
-          "Kanban",
-          "XP",
-          "Lean"
+        "Gestão de Projetos Ágeis": [
+          "Metodologias Ágeis (Scrum, Modelagem Ágil, Scrumban, Kanban, XP, Lean)",
+          "Guia de Prática Ágil do PMI"
         ],
-        "Dados e BI": [
-          "Pipeline de dados",
-          "ETL",
-          "Business Intelligence",
-          "Power BI",
-          "KPIs"
+        "Pipeline de Dados": [
+          "Pipeline de Dados",
+          "Fundamentos de pipeline",
+          "Orquestração, integração e ETL"
         ],
-        "Análise de Dados": [
-          "SQL",
-          "Excel",
-          "Tratamento de dados"
+        "Business Intelligence (BI)": [
+          "Conceitos de Business Intelligence",
+          "Processos de BI (coleta, organização, análise e compartilhamento)",
+          "Ferramentas de dashboards (Power BI)",
+          "Relatórios analíticos",
+          "Descoberta de informações (coleta, transformação, análise, visualização, decisão)",
+          "Indicadores e métricas (KPI, métricas financeiras e fiscais)"
+        ],
+        "Análise de Dados com SQL": [
+          "Modelagem de dados (estruturas, PK, FK, relacionamentos)",
+          "Tipos de dados",
+          "Consultas SQL (SELECT, FROM, WHERE, ORDER BY, GROUP BY)",
+          "Joins e produto cartesiano",
+          "Condicionais, agrupamento e sumarização",
+          "Funções agregadas (COUNT, SUM, AVG, MIN, MAX)",
+          "Subconsultas",
+          "Manipulação de valores, textos e datas",
+          "Tratamento de dados faltantes e duplicados",
+          "Comandos de manipulação (INSERT, UPDATE, DELETE)"
+        ],
+        "Análise de Dados com Microsoft Excel": [
+          "Funções lógicas (SE, E, OU, SEERRO)",
+          "Funções de busca (PROCV, PROCX)",
+          "Funções condicionais (SOMASES, CONT.SES)",
+          "Função ÚNICO",
+          "Funções de texto e data",
+          "Combinação de funções",
+          "Tratamento de valores faltantes e duplicados"
         ],
         "Inteligência Artificial": [
-          "IA e Machine Learning",
-          "Modelos supervisionados",
-          "Modelos não supervisionados"
+          "Inteligência Artificial e Machine Learning",
+          "Modelos supervisionados (preditivos)",
+          "Modelos não supervisionados (descritivos)"
         ]
       }
     }

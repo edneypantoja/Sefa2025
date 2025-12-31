@@ -1,7 +1,9 @@
 const container = document.getElementById("sumario");
 const STORAGE_KEY = "sumarioStatus";
+const ACCORDION_KEY = "sumarioAccordion";
 
 let status = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+let accordion = JSON.parse(localStorage.getItem(ACCORDION_KEY)) || {};
 
 fetch("conteudo.json")
     .then(res => res.json())
@@ -25,6 +27,19 @@ function renderSumario(disciplinas) {
         h2.textContent = disciplina.disciplina;
         divDisc.appendChild(h2);
 
+        const conteudoDisciplina = document.createElement("div");
+        conteudoDisciplina.className = "conteudo-disciplina";
+
+        if (accordion[disciplina.disciplina] === false) {
+            divDisc.classList.add("fechado");
+        }
+
+        h2.addEventListener("click", () => {
+            divDisc.classList.toggle("fechado");
+            accordion[disciplina.disciplina] = !divDisc.classList.contains("fechado");
+            localStorage.setItem(ACCORDION_KEY, JSON.stringify(accordion));
+        });
+
         Object.entries(disciplina.conteudo).forEach(([topico, filhos]) => {
             const divTopico = document.createElement("div");
             divTopico.className = "topico";
@@ -32,24 +47,20 @@ function renderSumario(disciplinas) {
             const h3 = document.createElement("h3");
             h3.textContent = topico;
 
-            const icon = document.createElement("img");
-            icon.src = "complete.svg"
-            h3.appendChild(icon);
+            const iconTopico = document.createElement("img");
+            iconTopico.src = "complete.svg";
+            h3.appendChild(iconTopico);
 
             divTopico.appendChild(h3);
-
-
 
             filhos.forEach(filho => {
                 const divFilho = document.createElement("div");
                 divFilho.className = "filho";
                 divFilho.textContent = filho;
 
-                const icon = document.createElement("img");
-                icon.src = "complete.svg"
-                divFilho.appendChild(icon);
-
-
+                const iconFilho = document.createElement("img");
+                iconFilho.src = "complete.svg";
+                divFilho.appendChild(iconFilho);
 
                 const key = `${disciplina.disciplina}|${topico}|${filho}`;
 
@@ -60,7 +71,7 @@ function renderSumario(disciplinas) {
                 addLongPress(divFilho, () => {
                     divFilho.classList.toggle("completo");
                     status[key] = divFilho.classList.contains("completo");
-                    salvar();
+                    salvarStatus();
                     atualizarTopico(divTopico, disciplina.disciplina, topico);
                 });
 
@@ -68,9 +79,10 @@ function renderSumario(disciplinas) {
             });
 
             atualizarTopico(divTopico, disciplina.disciplina, topico);
-            divDisc.appendChild(divTopico);
+            conteudoDisciplina.appendChild(divTopico);
         });
 
+        divDisc.appendChild(conteudoDisciplina);
         container.appendChild(divDisc);
     });
 }
@@ -84,10 +96,10 @@ function atualizarTopico(divTopico, disciplina, topico) {
 
     h3.classList.toggle("completo", completo);
     status[key] = completo;
-    salvar();
+    salvarStatus();
 }
 
-function salvar() {
+function salvarStatus() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(status));
 }
 
