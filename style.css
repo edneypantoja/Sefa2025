@@ -101,7 +101,6 @@ img {
 
 
 .conteudo-disciplina {
-    max-height: 2000px;
     overflow: hidden;
     transition: max-height 0.4s ease, opacity 0.3s ease;
     opacity: 1;
@@ -131,4 +130,5 @@ img {
 .disciplina:not(.fechado) > h2::after {
     content: " ▼";
 }
+
 
